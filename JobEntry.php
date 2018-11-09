@@ -165,8 +165,8 @@ $recArchString 		= json_encode($recArchArray);
     }
 </script>
 
-	<title>Meeting Notes</title>
-	<h1 style = "margin-top: 2%; margin-bottom: 5px;">Meeting Notes</h1>
+	<title>Job Notes</title>
+	<h1 style = "margin-top: 2%; margin-bottom: 5px;">Job Notes</h1>
 	<p style="margin-top: 5px;margin-bottom: 2%;"><a style="text-decoration: none" href="http://www.poolhouse.lancs.sch.uk/images/images/gold-star[1].jpg"><font size="6">*</font></a><font size="3">= Required Field</font></p>
 </head>
 
@@ -234,7 +234,6 @@ $recArchString 		= json_encode($recArchArray);
 			<input type="submit" name="showAll" class="hotdog" value="Show All" onclick="clearTable(); tableOnLoad(); return false;"/>
 		</div>
 	</form>
-	
 	
 	<div id="rectangle" class="shadow">
 	<table id="sum_table">
